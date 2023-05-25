@@ -1,0 +1,62 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+    background-color:#113182;
+
+}
+.img{
+
+    text-align: center;
+
+}
+.letra{
+    font-size: 20px;
+}
+.conteiner{
+    margin: 0 auto;
+    width: 960px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+   /* background-color: #444444;*/
+}
+.titulo{
+    text-align: center;
+}
+.grid-item-1{
+    grid-column: 1/span 2;
+}
+.grid-card{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    background-color:whitesmoke;
+    margin-bottom: 10px;
+    margin-top: auto;
+    border: 3px solid #113182;
+    border-radius: 15px;
+}
+.grid-item-3{
+    margin: 10px;
+    border: 2px solid #113182;
+    border-radius: 15px;
+    text-align: right;
+}
+.button{
+    text-decoration: none;
+    background-color: rgb(88, 65, 214);
+    color: #fff;
+    padding: 15px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.link{
+    grid-column: 1/ span 2;
+    text-align: end;
+}

@@ -1,0 +1,22 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+    background-color: #113182;
+
+}
+.img{
+
+    text-align: center;
+
+}
+main{
+    background-color: #b5bbd1;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.letra{
+    font-size: 20px;
+}
